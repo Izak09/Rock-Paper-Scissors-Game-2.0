@@ -20,8 +20,8 @@ const getUserChoice = (userInput) => {
       return 'The game is a tie';
     }
   
-    if ((userChoice === 'rock' && computerChoice === 'scissors') ||
-        (userChoice === 'paper' && computerChoice === 'rock') ||
+    if ((userChoice === 'rock' && computerChoice === 'scissors')
+        (userChoice === 'paper' && computerChoice === 'rock') 
         (userChoice === 'scissors' && computerChoice === 'paper')) {
       return 'Human Wins!';
     } else {
